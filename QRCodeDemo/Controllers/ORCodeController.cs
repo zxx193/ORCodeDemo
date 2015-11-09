@@ -16,7 +16,6 @@ namespace QRCodeDemo.Controllers
         public ActionResult Index()
         {
             return View();
-
         }
 
 
