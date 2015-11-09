@@ -16,7 +16,9 @@ namespace QRCodeDemo.Controllers
         public ActionResult Index()
         {
             return View();
+
         }
+
 
         [HttpPost]
         public ActionResult GetORImage(string content)
