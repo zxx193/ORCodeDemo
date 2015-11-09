@@ -43,5 +43,6 @@ namespace QRCodeDemo.Controllers
             return Content(content);
         }
 
+
     }
 }
