@@ -29,6 +29,7 @@ namespace QRCodeDemo.Controllers
             //}
 
 
+
             string timeStr = DateTime.Now.ToFileTime().ToString();
             Bitmap bitmap = QRCodeOp.QRCodeEncoderUtil(content);
             string fileName = Server.MapPath("~") + "Content\\Images\\QRImages\\" + timeStr + ".jpg";
